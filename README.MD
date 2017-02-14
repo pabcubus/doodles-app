@@ -1,39 +1,41 @@
 # Doodles App
 This is a repo for a Doodles App to show the features of Cordova
 
-Este proyecto requiere de tener instalado:
+This project requires to have installed:
 - NPM (Node Package Manager)
 - Bower
 - Cordova
 - GIT
-- Android SDK con la ultima version de Android (SDK 7)
+- Android SDK with las Android version installed (SDK 7)
 - XCode
 
-Tambien usa las tecnologías:
+This also uses:
 - AngularJS
 - Material Angular
 
-Para solo preparar el proyecto, se debe correr estos comandos desde la Terminal ó CMD:
+To prepare the project, you need to run these commands from the Terminal or CMD:
 ```sh
-$ git clone https://github.com/pabcubus/plaza-vea-app.git
+$ git clone https://github.com/pabcubus/doodles-app.git
 $ cd /folder/donde/se/clono/el/proyecto
 $ cd www
+$ npm run prepare-mac (or prepare-win)
 $ npm install
 $ bower install
 $ cd ..
-$ cordova platform add ios (si se quiere correr con iOS)
-$ cordova platform add android (si se quiere correr con Android)
+$ cordova platform add ios (if you want to run it on iOS)
+$ cordova platform add android (if you want to run it on Android)
 ```
 
 ## Android
-Si se quiere correr en un celular o emulador Android, se debe correr un emulador o conectar un dispositivo Android y luego correr el comando:
+If you want to run it from an Android device or emulator, you'll need to run these commands:
 ```sh
+$ adb devices (to search for Android devices connected to your PC or Mac including emulators)
 $ cordova run android
 ```
 ## iOS
-Para iOS es necesario tener un MacBook Pro.
-Si se quiere correr en un emulador de iOS, se debe correr el emulador y correr el comando:
+For iOS you'll need a MacBook Pro.
+If you want to run it from an iOS emulator, you'll need to run these commands:
 ```sh
-$ cordova run ios
+$ cordova run ios (to run it from an emulator)
 ```
-Si se quiere correr en un dispositivo iPhone, se debe conectar el iPhone al MacBook y tambien tener instalado [XCode](https://developer.apple.com/xcode/) para correr el proyecto.
+If you want to run it from an iOS device, you'll need to install [XCode](https://developer.apple.com/xcode/) and also configure you project and iOS device on it.
