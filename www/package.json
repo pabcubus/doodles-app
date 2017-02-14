@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/pabcubus/cloud-building-management-platform.git"
+    "url": "git+https://github.com/pabcubus/doodles-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/pabcubus/cloud-building-management-platform/issues"
+    "url": "https://github.com/pabcubus/doodles-app/issues"
   },
-  "homepage": "https://gitlab.com/pabcubus/cloud-building-management-platform#README",
+  "homepage": "https://github.com/pabcubus/doodles-app#README",
   "description": "",
   "dependencies": {
     "angular-ui-router": "^0.3.2",
